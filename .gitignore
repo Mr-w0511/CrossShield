@@ -1,27 +1,19 @@
-# ============================================================
-# 仓库B：提交给评委的纯代码仓 (CrossShield - frontend + backend)
-# 【使用方法】
-#   将此文件复制到独立代码仓根目录，重命名为 .gitignore
-#   独立代码仓根目录推荐结构：
-#   ├── frontend/  (React前端全部源码)
-#   ├── backend/   (Spring Boot后端全部源码)
-#   └── README.md
-# ============================================================
+# CrossShield 初赛提交代码仓 · frontend + backend + README
 
-# ---------- 依赖安装目录 ----------
+# --- 依赖 ---
 **/node_modules/
 **/.pnpm-store/
 **/.yarn/cache/
 **/.yarn/unplugged/
 
-# ---------- 前端构建产物 ----------
+# --- 前端构建 ---
 **/dist/
 **/.vite/
 **/.cache/
 **/.parcel-cache/
 **/build/
 
-# ---------- Java / Maven 构建产物 ----------
+# --- Java/Maven 构建 ---
 **/target/
 **/*.class
 **/*.jar
@@ -31,7 +23,7 @@
 mvnw
 mvnw.cmd
 
-# ---------- Python 缓存 ----------
+# --- Python 缓存 ---
 __pycache__/
 **/*.pyc
 **/*.pyo
@@ -39,7 +31,7 @@ __pycache__/
 .venv/
 venv/
 
-# ---------- IDE 配置 ----------
+# --- IDE ---
 .idea/
 .vscode/
 *.iml
@@ -52,7 +44,7 @@ venv/
 *.swo
 *~
 
-# ---------- 日志 ----------
+# --- 日志 ---
 *.log
 logs/
 npm-debug.log*
@@ -60,7 +52,7 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# ---------- 环境变量 ----------
+# --- 环境变量 ---
 .env
 .env.local
 .env.*.local
@@ -68,13 +60,13 @@ pnpm-debug.log*
 .env.production
 .env.test
 
-# ---------- 数据库 ----------
+# --- 数据库 ---
 *.db
 *.sqlite
 *.sqlite3
 *.dump
 
-# ---------- Windows / macOS 系统垃圾 ----------
+# --- 系统垃圾 ---
 Thumbs.db
 ehthumbs.db
 Desktop.ini
@@ -86,21 +78,21 @@ $RECYCLE.BIN/
 .Spotlight-V100
 .Trashes
 
-# ---------- 临时文件 ----------
+# --- 临时文件 ---
 *.tmp
 *.bak
 *.old
 _tmp_*/
 _zip_*/
 
-# ---------- 非代码材料（参赛者保留，此处排除） ----------
+# --- 非代码材料排除 ---
 # 文档
 *.md
 !README.md
 !frontend/README.md
 !backend/README.md
 
-# 图表与演示
+# 图表/演示
 *.png
 *.jpg
 *.jpeg
@@ -109,7 +101,7 @@ _zip_*/
 *.pptx
 *.ppt
 
-# 打包提交物
+# 压缩包
 *.zip
 *.zip.gz
 *.gz
