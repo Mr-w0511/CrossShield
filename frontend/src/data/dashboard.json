@@ -1,0 +1,53 @@
+{
+  "todayBrief": "今日美国宠物用品市场搜索量环比上涨12.3%，其中智能喂食器品类增长率高达37.8%，远超行业平均水平。\n亚马逊站外流量数据显示，TikTok #PetSmartFeeder 话题近7天播放量突破2.4亿次，同比增长156%，带动独立站访客量激增。Chewy平台宠物智能设备类目转化率升至4.2%，客单价均值$68.5。\n值得关注的是，英国、德国市场对带摄像头功能的喂食器需求环比分别增长29%和34%，建议卖家提前布局欧洲站多语言Listing和CE合规认证，把握Q4旺季前的流量红利窗口。",
+  "complianceAlerts": [
+    {
+      "id": 1,
+      "level": "high",
+      "title": "FDA食品接触材料新规",
+      "category": "宠物智能喂食器",
+      "market": "美国",
+      "desc": "2026年9月起强制要求食品接触面需提供LFGB检测报告",
+      "date": "2026-08-18"
+    },
+    {
+      "id": 2,
+      "level": "medium",
+      "title": "欧盟WEEE回收指令更新",
+      "category": "宠物电子用品",
+      "market": "欧盟",
+      "desc": "电子产品回收费率上调至1.2欧元/台，需更新EPR注册号",
+      "date": "2026-08-15"
+    },
+    {
+      "id": 3,
+      "level": "medium",
+      "title": "亚马逊外观专利投诉激增",
+      "category": "宠物饮水机",
+      "market": "美国",
+      "desc": "近30天相关投诉147起，涉及型号集中在圆形极简设计款",
+      "date": "2026-08-12"
+    },
+    {
+      "id": 4,
+      "level": "low",
+      "title": "日本PSE认证标准微调",
+      "category": "宠物烘干箱",
+      "market": "日本",
+      "desc": "新增过热保护三重冗余测试要求，预计影响15%在售SKU",
+      "date": "2026-08-10"
+    }
+  ],
+  "blueOceanTop10": [
+    { "rank": 1, "name": "带夜视摄像头智能喂食器", "score": 94.7, "category": "智能喂食器", "market": "美国", "demand": 28400, "competition": "低", "profitMargin": "62%" },
+    { "rank": 2, "name": "APP远程控制宠物饮水机", "score": 92.3, "category": "智能饮水机", "market": "德国", "demand": 19800, "competition": "中低", "profitMargin": "57%" },
+    { "rank": 3, "name": "多宠识别自动喂食器", "score": 90.8, "category": "智能喂食器", "market": "英国", "demand": 15600, "competition": "低", "profitMargin": "68%" },
+    { "rank": 4, "name": "静音恒温宠物烘干箱", "score": 88.5, "category": "宠物护理电器", "market": "美国", "demand": 12300, "competition": "中低", "profitMargin": "59%" },
+    { "rank": 5, "name": "GPS追踪智能项圈", "score": 86.9, "category": "智能穿戴", "market": "日本", "demand": 11200, "competition": "中", "profitMargin": "54%" },
+    { "rank": 6, "name": "激光互动自动逗猫器", "score": 85.2, "category": "智能玩具", "market": "美国", "demand": 24500, "competition": "中", "profitMargin": "65%" },
+    { "rank": 7, "name": "健康监测智能猫砂盆", "score": 83.7, "category": "智能猫厕所", "market": "加拿大", "demand": 8900, "competition": "低", "profitMargin": "71%" },
+    { "rank": 8, "name": "双碗防打翻宠物喂食器", "score": 82.1, "category": "喂食器具", "market": "澳大利亚", "demand": 17500, "competition": "低", "profitMargin": "58%" },
+    { "rank": 9, "name": "负离子宠物空气净化器", "score": 80.4, "category": "环境电器", "market": "韩国", "demand": 7600, "competition": "中低", "profitMargin": "52%" },
+    { "rank": 10, "name": "温控加热宠物垫", "score": 78.9, "category": "宠物家居", "market": "美国", "demand": 32100, "competition": "中", "profitMargin": "49%" }
+  ]
+}

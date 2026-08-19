@@ -1,0 +1,30 @@
+{
+  "category": "智能喂食器(带摄像头)",
+  "targetMarket": "美国站",
+  "products": [
+    { "id": 1, "name": "PETLIBRO Granary Camera Feeder", "brand": "PETLIBRO", "price": 89.99, "rating": 4.6, "sales": 12800, "bsr": 8, "image": "A", "reviews": 28956, "isOur": false },
+    { "id": 2, "name": "WOPET SmartFeeder with Camera", "brand": "WOPET", "price": 69.99, "rating": 4.4, "sales": 9600, "bsr": 14, "image": "B", "reviews": 18234, "isOur": false },
+    { "id": 3, "name": "FEELNEEDY 5G WiFi Feeder", "brand": "FEELNEEDY", "price": 54.99, "rating": 4.2, "sales": 7200, "bsr": 27, "image": "C", "reviews": 8421, "isOur": false },
+    { "id": 4, "name": "PetSafe Healthy Pet Simply", "brand": "PetSafe", "price": 149.95, "rating": 4.5, "sales": 5400, "bsr": 35, "image": "D", "reviews": 14567, "isOur": false },
+    { "id": 5, "name": "Catit PIXI Smart Feeder", "brand": "Catit", "price": 99.99, "rating": 4.3, "sales": 4100, "bsr": 52, "image": "E", "reviews": 5632, "isOur": false },
+    { "id": 6, "name": "Faroro 2.4G WiFi Feeder", "brand": "Faroro", "price": 46.99, "rating": 4.1, "sales": 3800, "bsr": 68, "image": "F", "reviews": 3289, "isOur": false },
+    { "id": 7, "name": "HoneyGuaridan 6L Feeder", "brand": "HoneyGuaridan", "price": 52.99, "rating": 4.2, "sales": 3200, "bsr": 75, "image": "G", "reviews": 2901, "isOur": false },
+    { "id": 8, "name": "【我方占位】智能喂食器Pro", "brand": "Our Brand", "price": 49.99, "rating": 0, "sales": 0, "bsr": 0, "image": "NEW", "reviews": 0, "isOur": true }
+  ],
+  "priceDistribution": {
+    "bargain": { "range": "$30以下", "count": 12, "avgRating": 3.6, "share": "18%" },
+    "value": { "range": "$30-$60", "count": 28, "avgRating": 4.1, "share": "42%" },
+    "mid": { "range": "$60-$100", "count": 19, "avgRating": 4.4, "share": "28%" },
+    "premium": { "range": "$100以上", "count": 8, "avgRating": 4.5, "share": "12%" }
+  },
+  "priceSuggestion": "基于87款竞品价格-销量-评分的多元回归模型分析，我方产品核心功能配置（6L容量+WiFi+1080P夜视摄像头+双向语音）与$60-$100价格带产品一致，但作为新品牌缺少用户评价积累，建议采用「渗透定价+促销锚定」组合策略切入。\n正式定价（MSRP）：$49.99\n逻辑支撑：该价格定位落在「Value价值区间」$30-$60上沿，同时比同配置WOPET（$69.99）低28.6%、比PETLIBRO（$89.99）低44.5%，形成显著的性价比锚点。回归模型显示此价位下预计首月转化提升约26%，而毛利率仍可维持约52%（BOM成本约$21.5+头程$3.2+平台佣金15%+$2广告/单≈$23.95）。\n首月促销价：$42.99（优惠14%，约$7 off）\n促销力度设计：采用直降$7而非百分比折扣，消费者对绝对金额的感知更强烈（行为经济学「绝对数额锚定效应」）。首月目标累计出单≥800单，快速积累Vine+初始评价至100+，配合7天秒杀（LD）冲至BSR前100名，为后续提价奠定销量权重基础。\n提价节奏：第2个月恢复$45.99，第4个月稳定至$49.99，每次提价间隔≥30天，单次涨幅≤8%，避免触发算法价格权重惩罚。",
+  "visualAnalysis": "基于qwen3-vl-plus视觉大模型对TOP20竞品主图/副图/A+页面的像素级解析，输出以下视觉洞察与优化建议：\n一、主图场景结构分析：\n竞品A（PETLIBRO，BSR#8）主图突出「宠物互动场景」，画面占比62%为猫咪主动靠近进食温馨场景，搭配产品28%+促销信息10%，点击率CTR估算达1.28%（类目均值0.72%）。其关键在于：采用真实橘猫+英短实拍而非3D渲染，背景为北欧风浅色家居环境。\n竞品B（WOPET，BSR#14）主图突出「功能信息堆叠」，左上角红底白字「$20 OFF Coupon」+右上角「2K Camera」功能徽章+底部「Free Return」服务承诺，信息密度高但略拥挤，CTR估算约0.95%。\n二、我方主图建议（五张轮播）：\n第1张主图：场景化方案。画面布局建议：左侧55%真实宠物家庭场景（金毛幼犬+白色喂食器互动抓拍，暖色调自然光），右侧40%产品白底渲染配功能标签「1080P Night Vision + App Remote」，左上角添加橙底白字促销角标「Save $15 Today」。\n第2张副图：尺寸对比图。采用MacBook Pro 13寸 + 罐装330ml可口可乐作为参照物，6L大容量可视化，配文「10-Day Supply for 2 Cats No Worries」。\n第3张副图：App界面截图。展示真实App喂食界面+历史喂食记录曲线，配文「Track Every Meal, Peace of Mind」。注意截图状态栏显示上午9:41、运营商信号满格等苹果审美细节。\n第4张副图：细节特写。出粮口特写+食品级Tritan材质认证徽章+硅胶密封圈细节，配文「FDA Approved Food-Grade Materials」。\n第5张副图：多色可选/全家福。黑白两色产品+所有配件排布，右下角加入「5-Year Warranty + 24H Customer Service」信任徽章。\n三、A+页面模块建议：首屏短视频（≤45秒）覆盖用户场景→拆解模块对比图（竞品差异：静音电机<35分贝）→真实KOL晒图九宫格（宠物社区UGC）→规格参数表→品牌故事（增加信任度）。",
+  "promoCalendar": [
+    { "month": "2026-09", "event": "新品牌冷启动", "type": "launch", "discount": "首月$42.99 ($7 OFF)", "coupon": "站内Coupon $5", "budget": "$12,000", "goal": "出单≥800单，积累100+Vine评价" },
+    { "month": "2026-10", "event": "万圣节宠物主题", "type": "festival", "discount": "$44.99 ($5 OFF)", "coupon": "买2件95折+TikTok Code", "budget": "$8,000", "goal": "进入BSR前150，月销≥1500单" },
+    { "month": "2026-11", "event": "黑五网一爆单", "type": "bfcm", "discount": "$39.99 (黑五特价-20%)", "coupon": "叠加AMZ Prime专享折扣", "budget": "$25,000", "goal": "BSR冲刺前50名，月销破5000单" },
+    { "month": "2026-12", "event": "圣诞购物季", "type": "christmas", "discount": "$45.99 ($4 OFF)", "coupon": "节日限定礼盒套装", "budget": "$15,000", "goal": "礼物场景渗透，客单价+18%" },
+    { "month": "2027-01", "event": "新年养宠计划", "type": "season", "discount": "$48.99 ($2 OFF)", "coupon": "订阅省5% + 耗材首单半价", "budget": "$6,000", "goal": "稳住BSR前100，沉淀老客" },
+    { "month": "2027-02", "event": "情人节宠物礼", "type": "festival", "discount": "$49.99 (恢复正价)", "coupon": "买喂食器送冻干礼盒", "budget": "$5,000", "goal": "提升毛利率至58%+" }
+  ]
+}

@@ -1,0 +1,126 @@
+# ============================================================
+# 仓库B：提交给评委的纯代码仓 (CrossShield - frontend + backend)
+# 【使用方法】
+#   将此文件复制到独立代码仓根目录，重命名为 .gitignore
+#   独立代码仓根目录推荐结构：
+#   ├── frontend/  (React前端全部源码)
+#   ├── backend/   (Spring Boot后端全部源码)
+#   └── README.md
+# ============================================================
+
+# ---------- 依赖安装目录 ----------
+**/node_modules/
+**/.pnpm-store/
+**/.yarn/cache/
+**/.yarn/unplugged/
+
+# ---------- 前端构建产物 ----------
+**/dist/
+**/.vite/
+**/.cache/
+**/.parcel-cache/
+**/build/
+
+# ---------- Java / Maven 构建产物 ----------
+**/target/
+**/*.class
+**/*.jar
+**/*.war
+**/*.ear
+.mvn/
+mvnw
+mvnw.cmd
+
+# ---------- Python 缓存 ----------
+__pycache__/
+**/*.pyc
+**/*.pyo
+.pytest_cache/
+.venv/
+venv/
+
+# ---------- IDE 配置 ----------
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+*.swp
+*.swo
+*~
+
+# ---------- 日志 ----------
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---------- 环境变量 ----------
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.test
+
+# ---------- 数据库 ----------
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+
+# ---------- Windows / macOS 系统垃圾 ----------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+
+# ---------- 临时文件 ----------
+*.tmp
+*.bak
+*.old
+_tmp_*/
+_zip_*/
+
+# ---------- 非代码材料（参赛者保留，此处排除） ----------
+# 文档
+*.md
+!README.md
+!frontend/README.md
+!backend/README.md
+
+# 图表与演示
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.pptx
+*.ppt
+
+# 打包提交物
+*.zip
+*.zip.gz
+*.gz
+*.rar
+*.tar
+
+# 参考资料
+*.html
+*.docx
+*.doc
+*.pdf
+*.xlsx
+*.xls
+*.txt
