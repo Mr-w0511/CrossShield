@@ -46,6 +46,7 @@ venv/
 
 # --- 日志 ---
 *.log
+error.log
 logs/
 npm-debug.log*
 yarn-debug.log*
