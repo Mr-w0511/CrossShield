@@ -13,6 +13,7 @@ import {
   Flame,
   PartyPopper,
   Package,
+  Rocket,
   ChevronRight,
   Info,
 } from 'lucide-react'

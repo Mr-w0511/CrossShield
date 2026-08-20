@@ -1,0 +1,44 @@
+{
+  "category": "智能宠物用品",
+  "targetMarket": "美国站",
+  "analysisDate": "2026-08-20",
+  "modelUsed": "deepseek/deepseek-r1",
+  "summary": "宠物智能用品赛道未来6个月预计增长23.5%，喂食器细分增速最快达31.2%，建议Q4前完成选品上架以抢占旺季流量窗口。",
+  "keyMetrics": {
+    "marketSize": "12.8亿",
+    "cagr": "23.5%",
+    "hotSubCategory": "智能喂食器",
+    "hotSubGrowth": "31.2%",
+    "saturation": "中等偏低",
+    "opportunityScore": 8.4
+  },
+  "monthlyTrend": [
+    { "month": "2026.03", "searchVolume": 82000, "salesVolume": 21000, "competition": 42, "avgPrice": 48.5 },
+    { "month": "2026.04", "searchVolume": 91000, "salesVolume": 24500, "competition": 44, "avgPrice": 47.8 },
+    { "month": "2026.05", "searchVolume": 105000, "salesVolume": 28000, "competition": 47, "avgPrice": 49.2 },
+    { "month": "2026.06", "searchVolume": 118000, "salesVolume": 32000, "competition": 51, "avgPrice": 50.1 },
+    { "month": "2026.07", "searchVolume": 132000, "salesVolume": 36500, "competition": 55, "avgPrice": 49.8 },
+    { "month": "2026.08", "searchVolume": 145000, "salesVolume": 41000, "competition": 58, "avgPrice": 50.5 },
+    { "month": "2026.09（预测）", "searchVolume": 168000, "salesVolume": 48000, "competition": 62, "avgPrice": 51.2 },
+    { "month": "2026.10（预测）", "searchVolume": 192000, "salesVolume": 56000, "competition": 67, "avgPrice": 52.0 },
+    { "month": "2026.11（预测）", "searchVolume": 225000, "salesVolume": 68000, "competition": 72, "avgPrice": 51.8 },
+    { "month": "2026.12（预测）", "searchVolume": 248000, "salesVolume": 75000, "competition": 76, "avgPrice": 52.5 }
+  ],
+  "subCategories": [
+    { "name": "智能喂食器", "growth": "31.2%", "searchTrend": "↑↑↑", "competition": "中低", "opportunity": 9.1, "tag": "蓝海" },
+    { "name": "智能饮水机", "growth": "18.7%", "searchTrend": "↑↑", "competition": "中高", "opportunity": 6.8, "tag": "稳定" },
+    { "name": "智能猫砂盆", "growth": "25.4%", "searchTrend": "↑↑↑", "competition": "高", "opportunity": 7.2, "tag": "红海" },
+    { "name": "宠物监控摄像头", "growth": "12.3%", "searchTrend": "↑", "competition": "高", "opportunity": 5.4, "tag": "饱和" },
+    { "name": "智能温控窝", "growth": "28.9%", "searchTrend": "↑↑↑", "competition": "低", "opportunity": 9.4, "tag": "蓝海" },
+    { "name": "GPS追踪器", "growth": "15.6%", "searchTrend": "↑↑", "competition": "中", "opportunity": 6.5, "tag": "稳定" }
+  ],
+  "seasonalAnalysis": {
+    "peakSeason": "11-12月（圣诞+黑五）",
+    "peakMultiplier": "2.8x",
+    "lowSeason": "3-4月",
+    "lowMultiplier": "0.6x",
+    "bestLaunchWindow": "2026年9月",
+    "reason": "9月上架可在Q4旺季前积累足够Review和BSR权重，12月达到销量峰值"
+  },
+  "modelInsight": "deepseek-r1 深度推理分析：智能宠物用品赛道正处于成长期中段，搜索量连续6个月环比增长超14%，但竞争指数尚在58以下。其中「智能喂食器」和「智能温控窝」两个细分品类竞争度低于行业均值且增速超28%，属于高确定性的蓝海机会。建议在9月旺季前完成选品+合规预检+首批库存部署，11月黑五前完成Review积累和广告投放，12月达到销量峰值。预计单品月销可达3000+台，毛利率维持35%以上。"
+}

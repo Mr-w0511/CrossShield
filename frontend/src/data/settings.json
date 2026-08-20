@@ -1,0 +1,39 @@
+{
+  "models": [
+    { "id": "qwen-max", "name": "qwen/qwen3.7-max", "role": "核心推理", "status": "active", "tasks": ["合规解读", "评论分析", "定价策略"], "color": "purple" },
+    { "id": "deepseek-r1", "name": "deepseek/deepseek-r1", "role": "趋势预测", "status": "active", "tasks": ["趋势预测", "蓝海评分"], "color": "blue" },
+    { "id": "vl-plus", "name": "qwen/qwen3-vl-plus", "role": "视觉解析", "status": "active", "tasks": ["竞品主图解析"], "color": "green" },
+    { "id": "qwq-plus", "name": "qwen/qwq-plus", "role": "深度推理", "status": "standby", "tasks": ["合规条款交叉比对"], "color": "dark-purple" },
+    { "id": "router", "name": "Model Router API", "role": "智能调度", "status": "active", "tasks": ["126模型统一路由"], "color": "orange" }
+  ],
+  "apiConfig": {
+    "endpoint": "https://dashscope.aliyuncs.com/api/v1",
+    "routerEndpoint": "https://dashscope.aliyuncs.com/api/v1/services/aigc/model-router/multiplication",
+    "authMethod": "API Key",
+    "keyMasked": "sk-****-****-****-a3f7",
+    "timeout": 30,
+    "retryCount": 3,
+    "rateLimit": "60/min"
+  },
+  "notifications": {
+    "complianceAlert": true,
+    "competitorPriceChange": true,
+    "competitorNewListing": true,
+    "trendUpdate": false,
+    "reviewSpike": true,
+    "dailyReport": true,
+    "reportTime": "09:00",
+    "channels": {
+      "email": true,
+      "webhook": false,
+      "inApp": true
+    }
+  },
+  "dataSources": [
+    { "name": "Amazon US API", "status": "connected", "lastSync": "2026-08-20 09:15" },
+    { "name": "Google Trends", "status": "connected", "lastSync": "2026-08-20 08:00" },
+    { "name": "USITC Tariff DB", "status": "connected", "lastSync": "2026-08-19 22:00" },
+    { "name": "USPTO Patent DB", "status": "connected", "lastSync": "2026-08-19 22:00" },
+    { "name": "FDA Registry", "status": "connected", "lastSync": "2026-08-19 22:00" }
+  ]
+}
